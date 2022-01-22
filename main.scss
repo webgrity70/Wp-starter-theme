@@ -1,0 +1,110 @@
+/* here will be custom css */
+@import "css-branches/variables";
+
+@font-face {
+  font-family: 'DharmaGothicE';
+  src: url('assets/fonts/DharmaGothicE_Bold_R_1.ttf') format('truetype');
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Helvetica';
+  src: url('assets/fonts/Helvetica.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  src: url('assets/fonts/Helvetica-Bold.Ttf') format('truetype');
+  font-weight: 700;
+}
+
+body{
+  font-family: 'Helvetica';
+  font-weight: 400;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.75;
+  color: #555555;
+}
+
+a{
+  &:hover{
+    text-decoration: none;
+  } 
+}
+input:focus-visible,select:focus-visible,textarea:focus-visible{
+  outline: none;
+  box-shadow: none;
+}
+hr{
+  border-color: rgba(0,0,0,.45);
+}
+main{
+  min-height: 55vh;
+  transition: 250ms;
+
+  ul, ol{
+  li{
+      padding-bottom: 10px;
+    }
+  }
+}
+
+a{
+  color: inherit;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'DharmaGothicE';
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+@import "css-branches/buttons";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wpcf7-not-valid-tip{
+  font-size: 12px;
+}
+
+.wpcf7 form.sent .wpcf7-response-output {
+  border-color: #46b450; /* Green */
+}
+
+.wpcf7 form.failed .wpcf7-response-output,
+.wpcf7 form.aborted .wpcf7-response-output {
+  border-color: #dc3232; /* Red */
+  background-color: rgba(220,50,50,.65)
+}
+
+.wpcf7 form.spam .wpcf7-response-output {
+  border-color: #f56e28; /* Orange */
+}
+
+.wpcf7-response-output{
+  font-size: 13px;
+}
+.wpcf7 form.invalid .wpcf7-response-output,
+.wpcf7 form.unaccepted .wpcf7-response-output {
+  border-color: #ffb900; /* Yellow */
+  background-color: rgba(255,185,0,.65);
+}
+.wpcf7 form .wpcf7-response-output {
+  margin: 2em 0.5em 1em;
+  padding: 0.2em 1em;
+  border: 2px solid #00a0d2; /* Blue */
+  background-color: rgba(0,160,210,.65)
+}

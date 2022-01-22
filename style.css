@@ -13,6 +13,7 @@ License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: hello-theme
 */
+/* from css-branches // custom or override variable */
 /* from bootstrap */
 :root {
   --blue: #007bff;
@@ -28,14 +29,14 @@ Text Domain: hello-theme
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #007bff;
+  --primary: #f12b2b;
   --secondary: #6c757d;
   --success: #28a745;
   --info: #17a2b8;
   --warning: #ffc107;
   --danger: #dc3545;
   --light: #f8f9fa;
-  --dark: #343a40;
+  --dark: #0a0a0a;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
@@ -161,12 +162,12 @@ sup {
 }
 
 a {
-  color: #007bff;
+  color: #f12b2b;
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #0056b3;
+  color: #c30d0d;
   text-decoration: underline;
 }
 
@@ -1557,7 +1558,7 @@ template {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #007bff;
+  background-color: #f12b2b;
 }
 
 .nav-fill > .nav-link,
@@ -1943,46 +1944,6 @@ template {
 }
 .navbar-dark .navbar-text a:hover, .navbar-dark .navbar-text a:focus {
   color: #fff;
-}
-
-.wpcf7-not-valid-tip {
-  font-size: 12px;
-}
-
-.wpcf7 form.sent .wpcf7-response-output {
-  border-color: #46b450;
-  /* Green */
-}
-
-.wpcf7 form.failed .wpcf7-response-output,
-.wpcf7 form.aborted .wpcf7-response-output {
-  border-color: #dc3232;
-  /* Red */
-  background-color: rgba(220, 50, 50, 0.65);
-}
-
-.wpcf7 form.spam .wpcf7-response-output {
-  border-color: #f56e28;
-  /* Orange */
-}
-
-.wpcf7-response-output {
-  font-size: 13px;
-}
-
-.wpcf7 form.invalid .wpcf7-response-output,
-.wpcf7 form.unaccepted .wpcf7-response-output {
-  border-color: #ffb900;
-  /* Yellow */
-  background-color: rgba(255, 185, 0, 0.65);
-}
-
-.wpcf7 form .wpcf7-response-output {
-  margin: 2em 0.5em 1em;
-  padding: 0.2em 1em;
-  border: 2px solid #00a0d2;
-  /* Blue */
-  background-color: rgba(0, 160, 210, 0.65);
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -5,10 +5,8 @@ function theme_main_asstes(){
 wp_enqueue_style( 'bootstrap4.5', get_template_directory_uri().'/assets/bootstrap4.5/css/bootstrap.min.css' );
 wp_enqueue_style( 'fontawesome', get_template_directory_uri().'/assets/font-awesome-4.7.0/css/font-awesome.min.css' );
 wp_enqueue_style( 'mmenu', get_template_directory_uri().'/assets/plugin/mmenu-light-master/dist/mmenu-light.css' );
-
 wp_enqueue_style( 'main-styleheet', get_stylesheet_uri() );
-
-
+wp_enqueue_style( 'main-styleheet', get_template_directory_uri().'/main.css' );
 
 
 wp_enqueue_script( 'jquery3.5.1', get_template_directory_uri() . '/assets/js/jquery.min3.5.1.js', array(), '3.5.1', true );
@@ -20,16 +18,7 @@ wp_enqueue_script( 'custom-js', get_template_directory_uri() . '/assets/js/custo
 }
 
 
-
 add_action( 'wp_enqueue_scripts', 'theme_main_asstes' );
-
-
-
-
-
-
-
-
 
 
 
@@ -49,13 +38,9 @@ if ( ! function_exists( 'theme_setup' ) ) :
 
 		add_theme_support( 'title-tag' );
 		/*
-
 		 * Enable support for Post Thumbnails on posts and pages.
-
 		 *
-
 		 * @link https://developer.wordpress.org/themes/functionality/featured-images-post-thumbnails/
-
 		 */
 
 		add_theme_support( 'post-thumbnails' );
@@ -64,27 +49,20 @@ if ( ! function_exists( 'theme_setup' ) ) :
 		register_nav_menus(
 
 			array(
-
-				'menu-1' => __( 'Primary', 'gvf' ),
-                //'mob-menu' => __( 'Mobile Menu', 'gvf' )
+				'menu-1' => __( 'Primary', 'hello-theme' ),
+                //'mob-menu' => __( 'Mobile Menu', 'hello-theme' )
 			)
 
 		);
 
 
-
 		/*
-
 		 * Switch default core markup for search form, comment form, and comments
-
 		 * to output valid HTML5.
-
 		 */
 
 		add_theme_support(
-
 			'html5',
-
 			array(
 				'search-form',
 				'comment-form',
@@ -93,9 +71,7 @@ if ( ! function_exists( 'theme_setup' ) ) :
 				'caption',
 				'script',
 				'style',
-
 			)
-
 		);
 
 		add_theme_support(
@@ -106,60 +82,24 @@ if ( ! function_exists( 'theme_setup' ) ) :
 				'flex-width'  => true,
 				'flex-height' => true,
 			)
-
 		);
 
-
-
 		// Add theme support for selective refresh for widgets.
-
 		add_theme_support( 'customize-selective-refresh-widgets' );
-
-
-
 		// Add support for Block Styles.
-
 		add_theme_support( 'wp-block-styles' );
-
-
-
-
-
 		// Add support for editor styles.
-
 		add_theme_support( 'editor-styles' );
-
-
-
-
-
 		add_theme_support( 'widgets' );
 
-
-
-
-
 		// Enqueue editor styles.
-
 		add_editor_style( 'style-editor.css' );
-
-
-
-		// Add custom editor font sizes.
-
-		
+		// Add custom editor font sizes.	
 
 	}
 
 endif;
 
 add_action( 'after_setup_theme', 'theme_setup' );
-
-
-
-
-
-
-
 
 

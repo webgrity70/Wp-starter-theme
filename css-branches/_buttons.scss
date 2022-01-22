@@ -1,0 +1,44 @@
+/* button settings */
+
+.btn{
+	display: inline-block;
+	border: 0;
+	outline: 0;
+	padding: 10px 35px;
+	text-align: center;
+	font-family: 'DharmaGothicE';
+	font-weight: 700;
+	letter-spacing: 1px;
+	position: relative;
+	z-index: 1;
+
+	&.btn-primary{
+		background-color: $primary;
+		color: #e92b2b;
+
+		&::before{
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background-color: #fff;
+			transition: 200ms;
+			transform-origin: center;
+			z-index: -1;
+
+		}
+
+		&:hover{
+			
+			color: #fff;
+
+			&::before{
+				transform: scale(0);
+			}
+		}
+
+
+	}
+}
