@@ -4,7 +4,7 @@
 
 <?php get_template_part('template-part/hero'); ?>
 
-<main class="otherPages postDetails">
+<main class="otherPages postDetails" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<div class="container container1200 my-5">
 
 		<div class="row">

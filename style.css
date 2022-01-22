@@ -1,13 +1,14 @@
 /*
 
 Theme Name: Hello theme
-Theme URI: https://wordpress.org/themes/twentynineteen/
+Theme URI: https://github.com/webgrity70/hellotheme
 Author: the WordPress team
 Author URI: https://wordpress.org/
-Description: Custom theme design with ACF
+Description: Custom theme design with ACF, absolutly free
 Requires at least: 5.6
 Requires PHP: 7.0
-Version: 1.0
+Version: 1.1
+Tested up to: 5.8
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: hello-theme
@@ -1942,6 +1943,46 @@ template {
 }
 .navbar-dark .navbar-text a:hover, .navbar-dark .navbar-text a:focus {
   color: #fff;
+}
+
+.wpcf7-not-valid-tip {
+  font-size: 12px;
+}
+
+.wpcf7 form.sent .wpcf7-response-output {
+  border-color: #46b450;
+  /* Green */
+}
+
+.wpcf7 form.failed .wpcf7-response-output,
+.wpcf7 form.aborted .wpcf7-response-output {
+  border-color: #dc3232;
+  /* Red */
+  background-color: rgba(220, 50, 50, 0.65);
+}
+
+.wpcf7 form.spam .wpcf7-response-output {
+  border-color: #f56e28;
+  /* Orange */
+}
+
+.wpcf7-response-output {
+  font-size: 13px;
+}
+
+.wpcf7 form.invalid .wpcf7-response-output,
+.wpcf7 form.unaccepted .wpcf7-response-output {
+  border-color: #ffb900;
+  /* Yellow */
+  background-color: rgba(255, 185, 0, 0.65);
+}
+
+.wpcf7 form .wpcf7-response-output {
+  margin: 2em 0.5em 1em;
+  padding: 0.2em 1em;
+  border: 2px solid #00a0d2;
+  /* Blue */
+  background-color: rgba(0, 160, 210, 0.65);
 }
 
 /*# sourceMappingURL=style.css.map */
