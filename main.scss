@@ -76,6 +76,7 @@ h1,h2,h3,h4,h5,h6{
 
 
 
+/* contact form 7  styling */
 .wpcf7-not-valid-tip{
   font-size: 12px;
 }
@@ -87,7 +88,8 @@ h1,h2,h3,h4,h5,h6{
 .wpcf7 form.failed .wpcf7-response-output,
 .wpcf7 form.aborted .wpcf7-response-output {
   border-color: #dc3232; /* Red */
-  background-color: rgba(220,50,50,.65)
+  background-color: rgba(220,50,50,.65);
+  color: #000;
 }
 
 .wpcf7 form.spam .wpcf7-response-output {
@@ -101,6 +103,7 @@ h1,h2,h3,h4,h5,h6{
 .wpcf7 form.unaccepted .wpcf7-response-output {
   border-color: #ffb900; /* Yellow */
   background-color: rgba(255,185,0,.65);
+  color: #000;
 }
 .wpcf7 form .wpcf7-response-output {
   margin: 2em 0.5em 1em;

@@ -90,6 +90,7 @@ h1, h2, h3, h4, h5, h6 {
   transform: scale(0);
 }
 
+/* contact form 7  styling */
 .wpcf7-not-valid-tip {
   font-size: 12px;
 }
@@ -104,6 +105,7 @@ h1, h2, h3, h4, h5, h6 {
   border-color: #dc3232;
   /* Red */
   background-color: rgba(220, 50, 50, 0.65);
+  color: #000;
 }
 
 .wpcf7 form.spam .wpcf7-response-output {
@@ -120,6 +122,7 @@ h1, h2, h3, h4, h5, h6 {
   border-color: #ffb900;
   /* Yellow */
   background-color: rgba(255, 185, 0, 0.65);
+  color: #000;
 }
 
 .wpcf7 form .wpcf7-response-output {
