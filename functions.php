@@ -6,7 +6,7 @@ wp_enqueue_style( 'bootstrap4.5', get_template_directory_uri().'/assets/bootstra
 wp_enqueue_style( 'fontawesome', get_template_directory_uri().'/assets/font-awesome-4.7.0/css/font-awesome.min.css' );
 wp_enqueue_style( 'mmenu', get_template_directory_uri().'/assets/plugin/mmenu-light-master/dist/mmenu-light.css' );
 wp_enqueue_style( 'main-styleheet', get_stylesheet_uri() );
-wp_enqueue_style( 'main-styleheet', get_template_directory_uri().'/main.css' );
+wp_enqueue_style( 'custom-styleheet', get_template_directory_uri().'/main.css' );
 
 
 wp_enqueue_script( 'jquery3.5.1', get_template_directory_uri() . '/assets/js/jquery.min3.5.1.js', array(), '3.5.1', true );
