@@ -2,7 +2,6 @@
 
 function theme_main_asstes(){
 
-wp_enqueue_style( 'bootstrap4.5', get_template_directory_uri().'/assets/bootstrap4.5/css/bootstrap.min.css' );
 wp_enqueue_style( 'fontawesome', get_template_directory_uri().'/assets/font-awesome-4.7.0/css/font-awesome.min.css' );
 wp_enqueue_style( 'mmenu', get_template_directory_uri().'/assets/plugin/mmenu-light-master/dist/mmenu-light.css' );
 wp_enqueue_style( 'main-styleheet', get_stylesheet_uri() );
