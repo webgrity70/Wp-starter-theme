@@ -12,10 +12,10 @@
     <header class="header">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <?php the_custom_logo(); ?>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            </button>>
+            <div class="navbar-collapse" id="navbarSupportedContent">
                <?php
 
                     wp_nav_menu(
@@ -27,6 +27,9 @@
                         )
                     );
                 ?>
+                <div class="d-flex my-2 my-lg-0 rightNav">
+                    <button class="searchBtn btnTransparent" data-modaltarget="search"><i class="fa fa-search" aria-hidden="true"></i></button>
+                </div>
             </div>
         </nav>
     </header>

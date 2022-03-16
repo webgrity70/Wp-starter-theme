@@ -1,4 +1,5 @@
 # Hello Theme
+## Download, extract and rename to hello-theme
 
 ## Dependecies
 - Using Bootstrap 4.5
