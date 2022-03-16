@@ -14,7 +14,7 @@
             <?php the_custom_logo(); ?>
             <button class="navbar-toggler" type="button" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-            </button>>
+            </button>
             <div class="navbar-collapse" id="navbarSupportedContent">
                <?php
 
