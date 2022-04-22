@@ -61,6 +61,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 @import "css-branches/buttons";
+@import "css-branches/typo";
 
 
 
@@ -83,6 +84,8 @@ h1,h2,h3,h4,h5,h6{
 
 .wpcf7 form.sent .wpcf7-response-output {
   border-color: #46b450; /* Green */
+  background-color: #46b450;
+  color: #fff;
 }
 
 .wpcf7 form.failed .wpcf7-response-output,
@@ -111,3 +114,12 @@ h1,h2,h3,h4,h5,h6{
   border: 2px solid #00a0d2; /* Blue */
   background-color: rgba(0,160,210,.65)
 }
+
+.wpcf7-spinner{
+  display: block;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@import "css-branches/animate";

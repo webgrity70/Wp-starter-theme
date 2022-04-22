@@ -19,15 +19,51 @@ Text Domain: hello-theme
 @import "css-branches/variables";
 
 /* from bootstrap */
+//@import "assets/bootstrap-5.1.3/scss/bootstrap";
 
-@import "assets/bootstrap4.5/scss/functions";
-@import "assets/bootstrap4.5/scss/variables";
-@import "assets/bootstrap4.5/scss/mixins";
-@import "assets/bootstrap4.5/scss/root";
-@import "assets/bootstrap4.5/scss/reboot";
-@import "assets/bootstrap4.5/scss/images";
-@import "assets/bootstrap4.5/scss/grid";
-@import "assets/bootstrap4.5/scss/nav";
-@import "assets/bootstrap4.5/scss/navbar";
-@import "assets/bootstrap4.5/scss/bootstrap-grid";
-@import "assets/bootstrap4.5/scss/utilities/text";
+
+// scss-docs-start import-stack
+// Configuration
+@import "assets/bootstrap-5.1.3/scss/functions";
+@import "assets/bootstrap-5.1.3/scss/variables";
+@import "assets/bootstrap-5.1.3/scss/mixins";
+@import "assets/bootstrap-5.1.3/scss/utilities";
+
+// Layout & components
+@import "assets/bootstrap-5.1.3/scss/root";
+@import "assets/bootstrap-5.1.3/scss/reboot";
+//@import "assets/bootstrap-5.1.3/scss/type";
+@import "assets/bootstrap-5.1.3/scss/images";
+@import "assets/bootstrap-5.1.3/scss/containers";
+@import "assets/bootstrap-5.1.3/scss/grid";
+//@import "assets/bootstrap-5.1.3/scss/tables";
+//@import "assets/bootstrap-5.1.3/scss/forms";
+//@import "assets/bootstrap-5.1.3/scss/buttons";
+@import "assets/bootstrap-5.1.3/scss/transitions";
+//@import "assets/bootstrap-5.1.3/scss/dropdown";
+//@import "assets/bootstrap-5.1.3/scss/button-group";
+@import "assets/bootstrap-5.1.3/scss/nav";
+@import "assets/bootstrap-5.1.3/scss/navbar";
+//@import "assets/bootstrap-5.1.3/scss/card";
+//@import "assets/bootstrap-5.1.3/scss/accordion";
+//@import "assets/bootstrap-5.1.3/scss/breadcrumb";
+//@import "assets/bootstrap-5.1.3/scss/pagination";
+//@import "assets/bootstrap-5.1.3/scss/badge";
+//@import "assets/bootstrap-5.1.3/scss/alert";
+//@import "assets/bootstrap-5.1.3/scss/progress";
+//@import "assets/bootstrap-5.1.3/scss/list-group";
+//@import "assets/bootstrap-5.1.3/scss/close";
+//@import "assets/bootstrap-5.1.3/scss/toasts";
+//@import "assets/bootstrap-5.1.3/scss/modal";
+//@import "assets/bootstrap-5.1.3/scss/tooltip";
+//@import "assets/bootstrap-5.1.3/scss/popover";
+//@import "assets/bootstrap-5.1.3/scss/carousel";
+//@import "assets/bootstrap-5.1.3/scss/spinners";
+//@import "assets/bootstrap-5.1.3/scss/offcanvas";
+//@import "assets/bootstrap-5.1.3/scss/placeholders";
+
+// Helpers
+//@import "assets/bootstrap-5.1.3/scss/helpers";
+
+// Utilities
+@import "assets/bootstrap-5.1.3/scss/utilities/api";
