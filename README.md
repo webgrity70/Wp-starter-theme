@@ -2,7 +2,7 @@
 ## Download, extract and rename to hello-theme
 
 ## Dependecies
-- Using Bootstrap 4.5
+- Using Bootstrap 5.1.3
 - Font-awesome 4.7
 - jQuery 3.5
 - Swiper js
@@ -12,12 +12,15 @@
 - functions
 - variables
 - mixins
-- root
+- utilities
 - reboot
 - images  
+- containers
 - grid
+- transitions
 - nav
 - navbar
+ -utilities/api
 
 
 
