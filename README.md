@@ -1,6 +1,8 @@
 # Hello Theme
 ## Download, extract and rename to hello-theme
 
+Front-page.php file removed totally, now just set a page as front page from wp-admin settings and use a template for custom design.
+
 ## Dependecies
 - Using Bootstrap 5.1.3
 - Font-awesome 4.7
