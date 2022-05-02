@@ -6,8 +6,8 @@ Front-page.php file removed totally, now just set a page as front page from wp-a
 ## Dependecies
 - Using Bootstrap 5.1.3
 - Font-awesome 4.7
-- jQuery 3.5
-- Swiper js
+- jQuery 3.5 (included but not enqued)
+- Swiper js (included but not enqued)
 
 
 ## Items imported in style.scss
@@ -25,7 +25,17 @@ Front-page.php file removed totally, now just set a page as front page from wp-a
  -utilities/api
 
 
+## wooCommerce
+For wocommerce compatibility add code in funtions.php
+```
+add_theme_support( 'woocommerce' );
 
+Other Utilities
+
+add_theme_support( 'wc-product-gallery-slider' );
+add_theme_support( 'wc-product-gallery-lightbox' );
+add_theme_support( 'wc-product-gallery-zoom' );
+```
 
 ## Initialize Wow Js
 ```
