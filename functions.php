@@ -8,8 +8,7 @@ wp_enqueue_style( 'main-styleheet', get_stylesheet_uri() );
 wp_enqueue_style( 'custom-styleheet', get_template_directory_uri().'/main.css' );
 
 
-wp_enqueue_script( 'jquery3.5.1', get_template_directory_uri() . '/assets/js/jquery.min3.5.1.js', array(), '3.5.1', true );
-wp_enqueue_script( 'bootstrapjs', get_template_directory_uri() . '/assets/bootstrap4.5/js/bootstrap.bundle.min.js', array(), '', true );
+//wp_enqueue_script( 'jquery3.5.1', get_template_directory_uri() . '/assets/js/jquery.min3.5.1.js', array(), '3.5.1', true );
 wp_enqueue_script( 'mmenu-main', get_template_directory_uri() . '/assets/plugin/mmenu-light-master/dist/mmenu-light.js', array(), '', true );
 wp_enqueue_script( 'mmenu-polyfill', get_template_directory_uri() . '/assets/plugin/mmenu-light-master/dist/mmenu-light.polyfills.js', array(), '', true );
 wp_enqueue_script( 'custom-js', get_template_directory_uri() . '/assets/js/custom.js', array(), false, true );

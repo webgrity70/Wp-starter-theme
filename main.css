@@ -165,6 +165,70 @@ h1, h2 {
   border-color: #fff;
 }
 
+.header {
+  background-color: #fff;
+  padding: 15px;
+}
+.header .navbar {
+  max-width: 1245px;
+}
+
+.navbar-nav {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+}
+.navbar-nav .menu-item {
+  padding-left: 9px;
+  padding-right: 9px;
+}
+.navbar-nav .menu-item.menu-item-has-children {
+  position: relative;
+}
+.navbar-nav .menu-item.current-menu-item {
+  color: #0a0a0a;
+}
+.navbar-nav .menu-item:hover > a {
+  color: #111111;
+}
+
+@media screen and (min-width: 992px) {
+  .navbar-nav .menu-item.menu-item-has-children .sub-menu {
+    position: absolute;
+    top: 100%;
+    background-color: #333;
+    padding: 5px;
+    list-style-type: none;
+    width: auto;
+    right: auto;
+    left: 0;
+    top: calc(100% + 15px);
+    min-width: 150px;
+    font-size: 85%;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: 250ms;
+  }
+  .navbar-nav .menu-item.menu-item-has-children .sub-menu > li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .navbar-nav .menu-item.menu-item-has-children .sub-menu > li a {
+    display: block;
+  }
+  .navbar-nav .menu-item.menu-item-has-children .sub-menu > li:hover a {
+    color: #f12b2b;
+  }
+  .navbar-nav .menu-item.menu-item-has-children .sub-menu > li:not(:last-child) {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+  }
+  .navbar-nav .menu-item.menu-item-has-children:hover .sub-menu {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 /* contact form 7  styling */
 .wpcf7-not-valid-tip {
   font-size: 12px;
